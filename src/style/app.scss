@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --dark-main-1: black;
+  --dark-accent-1: hsl(0, 0%, 70%);
+  --dark-accent-2: hsl(215, 60%, 30%);
+  --light-accent-1: hsl(55, 14%, 51%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
